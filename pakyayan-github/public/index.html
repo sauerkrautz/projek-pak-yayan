@@ -1,0 +1,975 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- my css -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- swiper js -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.3.1/swiper-bundle.css"
+      integrity="sha512-5TGRCl3hPoqtruhO+mubTuySHOfcEBvyIfiWHoCK8wDLmf6C1U73OUoNCU6ZvyT/8vfCcha1INDIo8dabDmQjw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- google font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Merriweather:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- font awesome -->
+    <script
+      src="https://kit.fontawesome.com/9a3f20c4de.js"
+      crossorigin="anonymous"
+    ></script>
+
+    <title>Poject</title>
+  </head>
+  <body
+    class="scrollbar-thin scrollbar-thumb-second scrollbar-track-main scrollbar-rounded-lg"
+  >
+    <!-- header -->
+    <section class="">
+      <div class="navbar">
+        <nav
+          class="relative w-full z-10 lg:px-28 px-4 py-4 flex justify-between items-center bg-white xl:bg-[#f2f2f2]"
+        >
+          <a
+            class="text-xl font-bold leading-none text-slate-800 xl:text-slate-700"
+            href="#"
+          >
+            <!-- <svg class="h-10" alt="logo" viewBox="0 0 100 100">
+                        <path d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"></path>
+                    </svg> -->
+            <p>COMPANY NAME</p>
+            <!-- <i class="fa-brands group-hover:text-slate-400 fa-instagram text-4xl text-slate-300"></i> -->
+          </a>
+
+          <a href="https://wa.link/5lel0t"
+            ><span
+              class="xl:text-2xl text-2xl lg:hidden xl:hidden px-2 xl:px-2 rounded-xl flex py-2 translate-x-12 md:translate-x-60 bg-green-500"
+              ><i class="fa-brands fa-whatsapp"></i></span
+          ></a>
+          <div class="lg:hidden">
+            <button class="navbar-burger flex items-center text-slate-700 p-3">
+              <svg
+                class="block h-4 w-4 fill-current"
+                viewBox="0 0 20 20"
+                xmlns="http://www.w3.org/2000/svg"
+              >
+                <title>Mobile menu</title>
+                <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z"></path>
+              </svg>
+            </button>
+          </div>
+          <ul
+            class="hidden absolute top-1/2 left-1/2 transform -translate-y-1/2 -translate-x-1/2 lg:mx-auto lg:flex lg:items-center lg:w-auto lg:space-x-6"
+          >
+            <li>
+              <a class="text-sm text-slate-700 hover:text-gray-500" href="#"
+                >Home</a
+              >
+            </li>
+            <li class="text-gray-300">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg> -->
+            </li>
+            <li>
+              <a class="text-sm text-slate-700 font-bold" href="#">About Us</a>
+            </li>
+            <li class="text-gray-300">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg> -->
+            </li>
+            <li>
+              <a class="text-sm text-slate-700 hover:text-gray-500" href="#"
+                >Services</a
+              >
+            </li>
+            <li class="text-gray-300">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg> -->
+            </li>
+            <li>
+              <a class="text-sm text-slate-700 hover:text-gray-500" href="#"
+                >Pricing</a
+              >
+            </li>
+            <li class="text-gray-300">
+              <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" class="w-4 h-4 current-fill" viewBox="0 0 24 24">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 5v0m0 7v0m0 7v0m0-13a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2zm0 7a1 1 0 110-2 1 1 0 010 2z" />
+                        </svg> -->
+            </li>
+            <li>
+              <a class="text-sm text-slate-700 hover:text-gray-500" href="#"
+                >Contact</a
+              >
+            </li>
+          </ul>
+
+          <a
+            class="hidden xl:text-base xl:flex xl:items-center lg:inline-block lg:ml-auto lg:mr-3 py-1 px-4 bg-gray-50 hover:bg-gray-100 text-sm text-gray-900 font-bold rounded-xl transition duration-200"
+            href="https://wa.link/5lel0t"
+            ><span
+              class="text-2xl px-2 rounded-xl flex py-2 -translate-x-3 bg-green-500"
+            >
+              <i class="fa-brands fa-whatsapp"></i
+            ></span>
+            Whatsapp</a
+          >
+          <!-- <a class="hidden lg:inline-block py-2 px-6 bg-blue-500 hover:bg-blue-600 text-sm text-white font-bold rounded-xl transition duration-200" href="#">Sign up</a> -->
+        </nav>
+        <div class="navbar-menu relative z-50 hidden">
+          <div
+            class="navbar-backdrop fixed inset-0 bg-gray-800 opacity-25"
+          ></div>
+          <nav
+            class="fixed top-0 left-0 bottom-0 flex flex-col w-5/6 max-w-sm py-6 px-6 bg-white border-r overflow-y-auto"
+          >
+            <div class="flex items-center mb-8">
+              <a class="mr-auto text-3xl font-bold leading-none" href="#">
+                <svg class="h-12" alt="logo" viewBox="0 0 100 100">
+                  <path
+                    d="M100 34.2c-.4-2.6-3.3-4-5.3-5.3-3.6-2.4-7.1-4.7-10.7-7.1-8.5-5.7-17.1-11.4-25.6-17.1-2-1.3-4-2.7-6-4-1.4-1-3.3-1-4.8 0-5.7 3.8-11.5 7.7-17.2 11.5L5.2 29C3 30.4.1 31.8 0 34.8c-.1 3.3 0 6.7 0 10v16c0 2.9-.6 6.3 2.1 8.1 6.4 4.4 12.9 8.6 19.4 12.9 8 5.3 16 10.7 24 16 2.2 1.5 4.4 3.1 7.1 1.3 2.3-1.5 4.5-3 6.8-4.5 8.9-5.9 17.8-11.9 26.7-17.8l9.9-6.6c.6-.4 1.3-.8 1.9-1.3 1.4-1 2-2.4 2-4.1V37.3c.1-1.1.2-2.1.1-3.1 0-.1 0 .2 0 0zM54.3 12.3L88 34.8 73 44.9 54.3 32.4V12.3zm-8.6 0v20L27.1 44.8 12 34.8l33.7-22.5zM8.6 42.8L19.3 50 8.6 57.2V42.8zm37.1 44.9L12 65.2l15-10.1 18.6 12.5v20.1zM50 60.2L34.8 50 50 39.8 65.2 50 50 60.2zm4.3 27.5v-20l18.6-12.5 15 10.1-33.6 22.4zm37.1-30.5L80.7 50l10.8-7.2-.1 14.4z"
+                  ></path>
+                </svg>
+              </a>
+              <button class="navbar-close">
+                <svg
+                  class="h-6 w-6 text-gray-400 cursor-pointer hover:text-gray-500"
+                  xmlns="http://www.w3.org/2000/svg"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  stroke="currentColor"
+                >
+                  <path
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="2"
+                    d="M6 18L18 6M6 6l12 12"
+                  ></path>
+                </svg>
+              </button>
+            </div>
+            <div>
+              <ul>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    href="#"
+                    >Home</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    href="#"
+                    >About Us</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    href="#"
+                    >Services</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    href="#"
+                    >Pricing</a
+                  >
+                </li>
+                <li class="mb-1">
+                  <a
+                    class="block p-4 text-sm font-semibold text-gray-400 hover:bg-blue-50 hover:text-blue-600 rounded"
+                    href="#"
+                    >Contact</a
+                  >
+                </li>
+              </ul>
+            </div>
+            <div class="mt-auto">
+              <div class="pt-6">
+                <a
+                  class="block px-4 py-3 mb-3 leading-loose text-xs text-center font-semibold bg-gray-50 hover:bg-gray-100 rounded-xl"
+                  href="#"
+                  >Sign in</a
+                >
+                <a
+                  class="block px-4 py-3 mb-2 leading-loose text-xs text-center text-white font-semibold bg-blue-600 hover:bg-blue-700 rounded-xl"
+                  href="#"
+                  >Sign Up</a
+                >
+              </div>
+              <p class="my-4 text-xs text-center text-gray-400">
+                <span>Copyright © 2021</span>
+              </p>
+            </div>
+          </nav>
+        </div>
+      </div>
+
+      <!-- tampilan mobile -->
+      <div
+        class="swiper mySwiper overflow-hidden container h-[309px] bg-[#f2f2f2] w-full lg:hidden md:hidden"
+      >
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img
+              src="img/main-8.jpg"
+              alt=""
+              class="swiper-slide brightness-75"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/main-3.jpg"
+              alt=""
+              class="swiper-slide brightness-75"
+            />
+          </div>
+          <div class="swiper-slide">
+            <img
+              src="img/main-6.jpg"
+              alt=""
+              class="swiper-slide brightness-75"
+            />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <div
+        class="absolute md:hidden xl:hidden top-20 z-10 translate-x-8 translate-y-12"
+      >
+        <h1 class="text-4xl font-extrabold text-white font-merry tracking-wide">
+          PRINT & <span class="text-white">BUILD</span>
+        </h1>
+        <h1
+          class="text-4xl py-5 font-extrabold text-white font-merry tracking-wide"
+        >
+          YOUR
+        </h1>
+        <h1
+          class="text-4xl tracking-widest font-extrabold text-white font-[Merriweather]"
+        >
+          DREAMS
+        </h1>
+      </div>
+
+      <!-- tampilan desktop -->
+      <div
+        class="hidden h-[90.5vh] bg-[#f2f2f2] xl:w-full xl:flex md:hidden items-center justify-center md:flex-col xl:flex-row"
+      >
+        <div
+          class="xl:w-1/2 xl:flex items-center xl:flex-col xl:justify-center md:border xl:border-none"
+        >
+          <div class="">
+            <h1
+              class="text-6xl font-extrabold text-slate-700 font-merry tracking-wide"
+            >
+              PRINT & <span class="text-[#1A73A3]">BUILD</span>
+            </h1>
+            <h1
+              class="text-6xl py-5 font-extrabold text-slate-700 font-merry tracking-wide"
+            >
+              YOUR
+            </h1>
+            <h1
+              class="text-6xl tracking-widest font-extrabold text-slate-700 font-[Merriweather]"
+            >
+              DREAMS
+            </h1>
+          </div>
+
+          <div class="xl:w-1/2 py-8 xl:-ml-16 xl:mr-8 md:w-1/2">
+            <p
+              class="text-slate-700 font-merry font-semibold text-lg tracking-wide"
+            >
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              esse excepturi facilis dolorem deserunt atque eveniet laborum
+              magni ullam eaque!
+            </p>
+          </div>
+
+          <div
+            class="xl:self-start xl:flex xl:flex-row xl:translate-x-[140px] items-center xl:gap-4"
+          >
+            <a
+              href=""
+              class="px-4 py-2 font-merry bg-[#F4EC97] hover:opacity-80 transition-all duration-200 rounded-md font-semibold"
+              >More</a
+            >
+
+            <i class="fa-solid fa-arrow-right-long text-4xl text-slate-700"></i>
+          </div>
+        </div>
+        <div class="w-1/2 hidden md:hidden xl:inline-block">
+          <div class="w-full relative">
+            <img
+              src="img/hero-image-2.png"
+              alt=""
+              class="relative w-full -translate-y-7 z-10"
+            />
+
+            <!-- <div class="absolute top-0 right-0 z-20">
+
+              <svg
+                id="visual"
+                viewBox="0 0 900 600"
+                width="900"
+                height="600"
+                xmlns="http://www.w3.org/2000/svg"
+                xmlns:xlink="http://www.w3.org/1999/xlink"
+                version="1.1"
+              >
+                <g transform="translate(450 300)">
+                  <path
+                    d="M143.3 -248.2C186.6 -223.2 223.2 -186.6 248.2 -143.3C273.2 -100 286.6 -50 286.6 0C286.6 50 273.2 100 248.2 143.3C223.2 186.6 186.6 223.2 143.3 248.2C100 273.2 50 286.6 0 286.6C-50 286.6 -100 273.2 -143.3 248.2C-186.6 223.2 -223.2 186.6 -248.2 143.3C-273.2 100 -286.6 50 -286.6 0C-286.6 -50 -273.2 -100 -248.2 -143.3C-223.2 -186.6 -186.6 -223.2 -143.3 -248.2C-100 -273.2 -50 -286.6 0 -286.6C50 -286.6 100 -273.2 143.3 -248.2"
+                    fill="#254866"
+                  ></path>
+                </g>
+              </svg> -->
+            <div class="absolute w-4/5 top-[-15%] right-[10%]">
+              <svg
+                version="1.1"
+                xmlns="http://www.w3.org/2000/svg"
+                viewBox="0 0 500 500"
+                width="100%"
+                id="blobSvg"
+                filter="blur(0.4px)"
+                style="opacity: 1"
+                transform="rotate(44)"
+              >
+                <defs>
+                  <linearGradient
+                    id="gradient"
+                    x1="0%"
+                    y1="0%"
+                    x2="0%"
+                    y2="100%"
+                  >
+                    <stop
+                      offset="0%"
+                      style="stop-color: rgb(37, 72, 102)"
+                    ></stop>
+                    <stop
+                      offset="100%"
+                      style="stop-color: rgb(37, 72, 102)"
+                    ></stop>
+                  </linearGradient>
+                </defs>
+                <path id="blob" fill="url(#gradient)" style="opacity: 0.62">
+                  <animate
+                    attributeName="d"
+                    dur="11200ms"
+                    repeatCount="indefinite"
+                    values="M402.96858,305.89372Q383.43068,361.78743,330.92976,387.4658Q278.42884,413.14418,202.60721,438.39372Q126.78558,463.64325,93.53789,391.42791Q60.29021,319.21257,78.64603,256.64233Q97.00185,194.07209,128.64418,144.10813Q160.28651,94.14418,219.21534,92.06839Q278.14418,89.9926,343.5342,103.10536Q408.92421,116.21812,415.71534,183.10906Q422.50647,250,402.96858,305.89372Z;M419.06254,317.79517Q411.11118,385.59033,349.66843,425.59894Q288.22568,465.60755,228.34547,428.45831Q168.46526,391.30906,120.24124,353.19622Q72.01722,315.08338,69.86103,249.40801Q67.70483,183.73263,103.47221,120.73263Q139.23958,57.73263,215.36631,36.75347Q291.49305,15.77432,346.41495,69.35242Q401.33686,122.93051,414.17538,186.46526Q427.0139,250,419.06254,317.79517Z;M414.53769,321.38989Q420.37096,392.77979,350.00938,405.59743Q279.64779,418.41507,213.62261,422.99375Q147.59743,427.57242,94.94338,376.434Q42.28934,325.29559,42.19191,249.67298Q42.09448,174.05036,91.48437,117.78308Q140.87426,61.5158,214.61636,47.15422Q288.35846,32.79263,348.05974,75.5158Q407.76103,118.23897,408.23272,184.11949Q408.70441,250,414.53769,321.38989Z;M429,328Q437,406,362,433Q287,460,218,442Q149,424,122.5,365Q96,306,74.5,242Q53,178,94.5,115Q136,52,206.5,73Q277,94,347.5,101.5Q418,109,419.5,179.5Q421,250,429,328Z;M425.57934,323.79599Q426.22734,397.59197,355.10104,419.41516Q283.97474,441.23834,222.29242,423.00907Q160.6101,404.77979,95.49644,367.33031Q30.38277,329.88083,44.58128,255.13536Q58.77979,180.3899,99.7419,120.41159Q140.70401,60.43329,214.57221,45.49287Q288.44042,30.55246,350.61367,72.29792Q412.78692,114.04339,418.85914,182.0217Q424.93135,250,425.57934,323.79599Z;M443.46373,322.92581Q424.06453,395.85162,352.29275,408.54192Q280.52096,421.23222,209.43547,432.55323Q138.34998,443.87423,108.93547,378.01696Q79.52096,312.15968,50.50966,239.62741Q21.49835,167.09515,80.22256,112.52096Q138.94677,57.94677,211.78709,57.03792Q284.62741,56.12906,342.97339,89.43146Q401.31936,122.73387,432.09114,186.36693Q462.86293,250,443.46373,322.92581Z;M402.96858,305.89372Q383.43068,361.78743,330.92976,387.4658Q278.42884,413.14418,202.60721,438.39372Q126.78558,463.64325,93.53789,391.42791Q60.29021,319.21257,78.64603,256.64233Q97.00185,194.07209,128.64418,144.10813Q160.28651,94.14418,219.21534,92.06839Q278.14418,89.9926,343.5342,103.10536Q408.92421,116.21812,415.71534,183.10906Q422.50647,250,402.96858,305.89372Z"
+                  ></animate>
+                </path>
+                <path id="blob" fill="url(#gradient)" style="opacity: 0.62">
+                  <animate
+                    attributeName="d"
+                    dur="11200ms"
+                    repeatCount="indefinite"
+                    values="M429,328Q437,406,362,433Q287,460,218,442Q149,424,122.5,365Q96,306,74.5,242Q53,178,94.5,115Q136,52,206.5,73Q277,94,347.5,101.5Q418,109,419.5,179.5Q421,250,429,328Z;M428.39652,310.63781Q395.12039,371.27562,337.58607,396.3189Q280.05174,421.36219,204.00896,441.94775Q127.96619,462.5333,107.32787,385.81839Q86.68955,309.10348,96.33581,253.18955Q105.98207,197.27562,134.68904,148.26665Q163.396,99.25769,224.43929,74.05174Q285.48258,48.8458,334.83632,93.40548Q384.19006,137.96516,422.93135,193.98258Q461.67264,250,428.39652,310.63781Z;M419.06254,317.79517Q411.11118,385.59033,349.66843,425.59894Q288.22568,465.60755,228.34547,428.45831Q168.46526,391.30906,120.24124,353.19622Q72.01722,315.08338,69.86103,249.40801Q67.70483,183.73263,103.47221,120.73263Q139.23958,57.73263,215.36631,36.75347Q291.49305,15.77432,346.41495,69.35242Q401.33686,122.93051,414.17538,186.46526Q427.0139,250,419.06254,317.79517Z;M443.46373,322.92581Q424.06453,395.85162,352.29275,408.54192Q280.52096,421.23222,209.43547,432.55323Q138.34998,443.87423,108.93547,378.01696Q79.52096,312.15968,50.50966,239.62741Q21.49835,167.09515,80.22256,112.52096Q138.94677,57.94677,211.78709,57.03792Q284.62741,56.12906,342.97339,89.43146Q401.31936,122.73387,432.09114,186.36693Q462.86293,250,443.46373,322.92581Z;M404.21696,312.89783Q400.5999,375.79567,344.18719,420.60848Q287.77447,465.42129,222.25959,438.51488Q156.7447,411.60848,114.36806,363.06382Q71.99143,314.51917,65.98083,247.80853Q59.97023,181.09788,105.72982,130.10217Q151.4894,79.10645,216.18088,77.25959Q280.87235,75.41272,335.88295,103.82341Q390.89355,132.2341,399.36378,191.11705Q407.83401,250,404.21696,312.89783Z;M433.0232,309.9192Q393.01281,369.83841,338.3352,406.40881Q283.6576,442.97921,221.7752,424.49281Q159.8928,406.0064,119.2384,358.9864Q78.584,311.9664,70.5304,246.7752Q62.4768,181.584,97.7552,114.4464Q133.0336,47.3088,206.208,64.61119Q279.3824,81.91359,342.208,100.8192Q405.0336,119.7248,439.0336,184.8624Q473.0336,250,433.0232,309.9192Z;M429,328Q437,406,362,433Q287,460,218,442Q149,424,122.5,365Q96,306,74.5,242Q53,178,94.5,115Q136,52,206.5,73Q277,94,347.5,101.5Q418,109,419.5,179.5Q421,250,429,328Z"
+                  ></animate>
+                </path>
+                <path id="blob" fill="url(#gradient)" style="opacity: 0.62">
+                  <animate
+                    attributeName="d"
+                    dur="11200ms"
+                    repeatCount="indefinite"
+                    values="M425.57934,323.79599Q426.22734,397.59197,355.10104,419.41516Q283.97474,441.23834,222.29242,423.00907Q160.6101,404.77979,95.49644,367.33031Q30.38277,329.88083,44.58128,255.13536Q58.77979,180.3899,99.7419,120.41159Q140.70401,60.43329,214.57221,45.49287Q288.44042,30.55246,350.61367,72.29792Q412.78692,114.04339,418.85914,182.0217Q424.93135,250,425.57934,323.79599Z;M404.21696,312.89783Q400.5999,375.79567,344.18719,420.60848Q287.77447,465.42129,222.25959,438.51488Q156.7447,411.60848,114.36806,363.06382Q71.99143,314.51917,65.98083,247.80853Q59.97023,181.09788,105.72982,130.10217Q151.4894,79.10645,216.18088,77.25959Q280.87235,75.41272,335.88295,103.82341Q390.89355,132.2341,399.36378,191.11705Q407.83401,250,404.21696,312.89783Z;M428.39652,310.63781Q395.12039,371.27562,337.58607,396.3189Q280.05174,421.36219,204.00896,441.94775Q127.96619,462.5333,107.32787,385.81839Q86.68955,309.10348,96.33581,253.18955Q105.98207,197.27562,134.68904,148.26665Q163.396,99.25769,224.43929,74.05174Q285.48258,48.8458,334.83632,93.40548Q384.19006,137.96516,422.93135,193.98258Q461.67264,250,428.39652,310.63781Z;M414.53769,321.38989Q420.37096,392.77979,350.00938,405.59743Q279.64779,418.41507,213.62261,422.99375Q147.59743,427.57242,94.94338,376.434Q42.28934,325.29559,42.19191,249.67298Q42.09448,174.05036,91.48437,117.78308Q140.87426,61.5158,214.61636,47.15422Q288.35846,32.79263,348.05974,75.5158Q407.76103,118.23897,408.23272,184.11949Q408.70441,250,414.53769,321.38989Z;M419.06254,317.79517Q411.11118,385.59033,349.66843,425.59894Q288.22568,465.60755,228.34547,428.45831Q168.46526,391.30906,120.24124,353.19622Q72.01722,315.08338,69.86103,249.40801Q67.70483,183.73263,103.47221,120.73263Q139.23958,57.73263,215.36631,36.75347Q291.49305,15.77432,346.41495,69.35242Q401.33686,122.93051,414.17538,186.46526Q427.0139,250,419.06254,317.79517Z;M443.46373,322.92581Q424.06453,395.85162,352.29275,408.54192Q280.52096,421.23222,209.43547,432.55323Q138.34998,443.87423,108.93547,378.01696Q79.52096,312.15968,50.50966,239.62741Q21.49835,167.09515,80.22256,112.52096Q138.94677,57.94677,211.78709,57.03792Q284.62741,56.12906,342.97339,89.43146Q401.31936,122.73387,432.09114,186.36693Q462.86293,250,443.46373,322.92581Z;M425.57934,323.79599Q426.22734,397.59197,355.10104,419.41516Q283.97474,441.23834,222.29242,423.00907Q160.6101,404.77979,95.49644,367.33031Q30.38277,329.88083,44.58128,255.13536Q58.77979,180.3899,99.7419,120.41159Q140.70401,60.43329,214.57221,45.49287Q288.44042,30.55246,350.61367,72.29792Q412.78692,114.04339,418.85914,182.0217Q424.93135,250,425.57934,323.79599Z"
+                  ></animate>
+                </path>
+                <path id="blob" fill="url(#gradient)" style="opacity: 0.62">
+                  <animate
+                    attributeName="d"
+                    dur="11200ms"
+                    repeatCount="indefinite"
+                    values="M402.96858,305.89372Q383.43068,361.78743,330.92976,387.4658Q278.42884,413.14418,202.60721,438.39372Q126.78558,463.64325,93.53789,391.42791Q60.29021,319.21257,78.64603,256.64233Q97.00185,194.07209,128.64418,144.10813Q160.28651,94.14418,219.21534,92.06839Q278.14418,89.9926,343.5342,103.10536Q408.92421,116.21812,415.71534,183.10906Q422.50647,250,402.96858,305.89372Z;M425.57934,323.79599Q426.22734,397.59197,355.10104,419.41516Q283.97474,441.23834,222.29242,423.00907Q160.6101,404.77979,95.49644,367.33031Q30.38277,329.88083,44.58128,255.13536Q58.77979,180.3899,99.7419,120.41159Q140.70401,60.43329,214.57221,45.49287Q288.44042,30.55246,350.61367,72.29792Q412.78692,114.04339,418.85914,182.0217Q424.93135,250,425.57934,323.79599Z;M433.0232,309.9192Q393.01281,369.83841,338.3352,406.40881Q283.6576,442.97921,221.7752,424.49281Q159.8928,406.0064,119.2384,358.9864Q78.584,311.9664,70.5304,246.7752Q62.4768,181.584,97.7552,114.4464Q133.0336,47.3088,206.208,64.61119Q279.3824,81.91359,342.208,100.8192Q405.0336,119.7248,439.0336,184.8624Q473.0336,250,433.0232,309.9192Z;M414.53769,321.38989Q420.37096,392.77979,350.00938,405.59743Q279.64779,418.41507,213.62261,422.99375Q147.59743,427.57242,94.94338,376.434Q42.28934,325.29559,42.19191,249.67298Q42.09448,174.05036,91.48437,117.78308Q140.87426,61.5158,214.61636,47.15422Q288.35846,32.79263,348.05974,75.5158Q407.76103,118.23897,408.23272,184.11949Q408.70441,250,414.53769,321.38989Z;M429,328Q437,406,362,433Q287,460,218,442Q149,424,122.5,365Q96,306,74.5,242Q53,178,94.5,115Q136,52,206.5,73Q277,94,347.5,101.5Q418,109,419.5,179.5Q421,250,429,328Z;M419.06254,317.79517Q411.11118,385.59033,349.66843,425.59894Q288.22568,465.60755,228.34547,428.45831Q168.46526,391.30906,120.24124,353.19622Q72.01722,315.08338,69.86103,249.40801Q67.70483,183.73263,103.47221,120.73263Q139.23958,57.73263,215.36631,36.75347Q291.49305,15.77432,346.41495,69.35242Q401.33686,122.93051,414.17538,186.46526Q427.0139,250,419.06254,317.79517Z;M402.96858,305.89372Q383.43068,361.78743,330.92976,387.4658Q278.42884,413.14418,202.60721,438.39372Q126.78558,463.64325,93.53789,391.42791Q60.29021,319.21257,78.64603,256.64233Q97.00185,194.07209,128.64418,144.10813Q160.28651,94.14418,219.21534,92.06839Q278.14418,89.9926,343.5342,103.10536Q408.92421,116.21812,415.71534,183.10906Q422.50647,250,402.96858,305.89372Z"
+                  ></animate>
+                </path>
+                <path id="blob" fill="url(#gradient)" style="opacity: 0.62">
+                  <animate
+                    attributeName="d"
+                    dur="11200ms"
+                    repeatCount="indefinite"
+                    values="M428.39652,310.63781Q395.12039,371.27562,337.58607,396.3189Q280.05174,421.36219,204.00896,441.94775Q127.96619,462.5333,107.32787,385.81839Q86.68955,309.10348,96.33581,253.18955Q105.98207,197.27562,134.68904,148.26665Q163.396,99.25769,224.43929,74.05174Q285.48258,48.8458,334.83632,93.40548Q384.19006,137.96516,422.93135,193.98258Q461.67264,250,428.39652,310.63781Z;M433.0232,309.9192Q393.01281,369.83841,338.3352,406.40881Q283.6576,442.97921,221.7752,424.49281Q159.8928,406.0064,119.2384,358.9864Q78.584,311.9664,70.5304,246.7752Q62.4768,181.584,97.7552,114.4464Q133.0336,47.3088,206.208,64.61119Q279.3824,81.91359,342.208,100.8192Q405.0336,119.7248,439.0336,184.8624Q473.0336,250,433.0232,309.9192Z;M429,328Q437,406,362,433Q287,460,218,442Q149,424,122.5,365Q96,306,74.5,242Q53,178,94.5,115Q136,52,206.5,73Q277,94,347.5,101.5Q418,109,419.5,179.5Q421,250,429,328Z;M453.57191,328.53752Q437.08754,407.07503,364.57816,448.74386Q292.06878,490.41269,219.55628,459.1657Q147.04377,427.91871,108.99375,371.46874Q70.94372,315.01876,56.52814,244.52814Q42.11255,174.03752,86.02814,107.96874Q129.94372,41.89995,209.98749,31.84993Q290.03126,21.79991,346.01876,71.89683Q402.00625,121.99375,436.03126,185.99687Q470.05628,250,453.57191,328.53752Z;M402.96858,305.89372Q383.43068,361.78743,330.92976,387.4658Q278.42884,413.14418,202.60721,438.39372Q126.78558,463.64325,93.53789,391.42791Q60.29021,319.21257,78.64603,256.64233Q97.00185,194.07209,128.64418,144.10813Q160.28651,94.14418,219.21534,92.06839Q278.14418,89.9926,343.5342,103.10536Q408.92421,116.21812,415.71534,183.10906Q422.50647,250,402.96858,305.89372Z;M419.06254,317.79517Q411.11118,385.59033,349.66843,425.59894Q288.22568,465.60755,228.34547,428.45831Q168.46526,391.30906,120.24124,353.19622Q72.01722,315.08338,69.86103,249.40801Q67.70483,183.73263,103.47221,120.73263Q139.23958,57.73263,215.36631,36.75347Q291.49305,15.77432,346.41495,69.35242Q401.33686,122.93051,414.17538,186.46526Q427.0139,250,419.06254,317.79517Z;M428.39652,310.63781Q395.12039,371.27562,337.58607,396.3189Q280.05174,421.36219,204.00896,441.94775Q127.96619,462.5333,107.32787,385.81839Q86.68955,309.10348,96.33581,253.18955Q105.98207,197.27562,134.68904,148.26665Q163.396,99.25769,224.43929,74.05174Q285.48258,48.8458,334.83632,93.40548Q384.19006,137.96516,422.93135,193.98258Q461.67264,250,428.39652,310.63781Z"
+                  ></animate>
+                </path>
+              </svg>
+            </div>
+          </div>
+
+          <!-- <lottie-player
+            src="https://assets9.lottiefiles.com/private_files/lf30_dzn8fp9a.json"
+            background="transparent"
+            speed="1"
+            class="w-[100%] -translate-x-12"
+            loop
+            autoplay
+          ></lottie-player> -->
+        </div>
+      </div>
+
+      <!-- tampilan tablet -->
+      <div
+        class="container hidden xl:hidden h-[95vh] bg-[#f2f2f2] xl:w-full md:flex items-center justify-center flex-col max-w-fit"
+      >
+        <div class="flex justify-between items-center px-10 -translate-y-10">
+          <div class="">
+            <h1
+              class="text-6xl font-extrabold text-slate-700 font-merry tracking-wide leading-[80px]"
+            >
+              PRINT & <span class="text-[#1A73A3]">BUILD</span>
+            </h1>
+            <h1
+              class="text-6xl py-5 font-extrabold text-slate-700 font-merry tracking-wide"
+            >
+              YOUR
+            </h1>
+            <h1
+              class="text-6xl tracking-widest font-extrabold text-slate-700 font-[Merriweather]"
+            >
+              DREAMS
+            </h1>
+          </div>
+
+          <div class="w-1/2">
+            <p
+              class="text-slate-700 font-merry font-semibold text-lg tracking-wide"
+            >
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt
+              esse excepturi facilis dolorem deserunt atque eveniet laborum
+              magni ullam eaque!
+            </p>
+
+            <div class="flex gap-5 items-center mt-5">
+              <a
+                href=""
+                class="px-4 py-2 font-merry bg-[#F4EC97] rounded-md font-semibold hover:opacity-80 transition-all duration-200"
+                >More</a
+              >
+
+              <i
+                class="fa-solid fa-arrow-right-long text-4xl text-slate-700"
+              ></i>
+            </div>
+          </div>
+
+          <!-- <div class="w-1/2 py-8 xl:-ml-16 xl:mr-8">
+                    <p class="text-white font-merry font-semibold text-lg tracking-wide">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nesciunt esse excepturi facilis dolorem deserunt atque eveniet laborum magni ullam eaque!</p>
+                </div> -->
+
+          <!-- <div class="xl:self-start xl:flex xl:flex-row xl:translate-x-[140px] items-center xl:gap-4">
+                    <a href="" class="px-4 py-1 font-merry bg-[#F4EC97] rounded-md font-semibold">More</a>
+
+                    <i class="fa-solid fa-arrow-right-long text-4xl text-[#FDF6E9]"></i> 
+                    
+                </div> -->
+        </div>
+        <div class="w-[80%] mx-auto flex justify-center">
+          <!-- <img src="img/lennert-naessens-EgB66PkGZbQ-unsplash.jpg" alt="" class="w-1/2"> -->
+
+          <lottie-player
+            src="https://assets9.lottiefiles.com/private_files/lf30_dzn8fp9a.json"
+            background="transparent"
+            speed="1"
+            class="w-[100%]"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+      </div>
+    </section>
+
+    <!-- about us -->
+    <section>
+      <!-- tampilan about us -->
+      <div
+        class="container h-[750px] md:h-[100vh] bg-[#F7FAFC] md:max-w-fit xl:w-full xl:flex xl:flex-row-reverse xl:justify-center xl:items-center xl:px-24"
+      >
+        <div class="gambar xl:w-1/2">
+          <lottie-player
+            src="https://assets9.lottiefiles.com/private_files/lf30_6uhcq95s.json"
+            background="transparent"
+            speed="1"
+            class="w-[90%] md:w-[70%] xl:w-[100%] mx-auto"
+            loop
+            autoplay
+          ></lottie-player>
+        </div>
+
+        <div
+          class="kata w-[80%] xl:w-[50%] h-[350px] bg-[#254866] rounded-tr-xl rounded-br-xl xl:rounded-none xl:bg-[#F7FAFC]"
+        >
+          <h1
+            class="text-2xl md:text-4xl flex justify-center xl:justify-start xl:px-10 font-semibold text-white xl:text-slate-700 py-5 md:py-8 font-merry tracking-wider xl:font-bold xl:text-5xl"
+          >
+            ABOUT US
+          </h1>
+          <p
+            class="px-5 py-3 md:px-10 text-white xl:text-slate-700 font-merry text-[14.5px] tracking-wider md:text-lg xl:font-semibold xl:w-[70%] xl:text-lg"
+          >
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio ut
+            impedit mollitia beatae vero soluta fuga dolores blanditiis ratione,
+            labore quia ipsa maiores similique. Quas ea enim necessitatibus
+            laudantium odio.
+          </p>
+          <div
+            class="flex translate-x-5 md:translate-x-10 pt-5 gap-4 items-center"
+          >
+            <a
+              href=""
+              class="px-3 py-1 xl:px-4 xl:py-2 font-merry bg-[#F4EC97] text-slate-700 xl:bg-[#254866] xl:text-white rounded-md font-semibold hover:opacity-80 transition-all duration-200"
+              >More</a
+            >
+            <i
+              class="fa-solid fa-arrow-right-long text-4xl text-[#F4EC97] xl:text-[#254866]"
+            ></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- why us section -->
+    <section>
+      <div
+        class="container h-[190vh] md:h-[100vh] xl:h-[140vh] bg-[#F7FAFC] px-5"
+      >
+        <h1 class="text-center font-bold text-slate-700 text-3xl py-8">
+          WHY US?
+        </h1>
+
+        <div class="flex flex-wrap justify-evenly">
+          <div
+            class="border border-gray-200 shadow-lg hover:bg-[#254866] hover:text-white transition duration-200 rounded-lg w-full h-[18rem] md:h-[22rem] px-7 py-10 md:py-14 my-7 md:w-[40%] lg:w-[35%]"
+          >
+            <i class="fa-solid fa-print text-center text-6xl mb-1"></i>
+            <h1 class="font-semibold text-2xl my-2 xl:py-5">
+              Mesin Print Yang Modern
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, sint. Odit ratione amet deserunt harum, doloribus ex
+              aspernatur quis corrupti.
+            </p>
+          </div>
+          <div
+            class="border border-gray-200 shadow-lg hover:bg-[#254866] hover:text-white transition duration-200 rounded-lg w-full h-[18rem] md:h-[22rem] px-7 py-10 md:py-14 my-7 md:w-[40%] lg:w-[35%]"
+          >
+            <i
+              class="fa-solid fa-hand-holding-dollar text-center text-6xl mb-1"
+            ></i>
+            <h1 class="font-semibold text-2xl my-2 xl:py-5">
+              Harga Yang Sesuai
+            </h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, sint. Odit ratione amet deserunt harum, doloribus ex
+              aspernatur quis corrupti.
+            </p>
+          </div>
+          <div
+            class="border border-gray-200 shadow-lg hover:bg-[#254866] hover:text-white transition duration-200 rounded-lg w-full h-[18rem] md:h-[22rem] px-7 py-8 md:py-14 my-7 md:w-[40%] lg:w-[35%]"
+          >
+            <!-- <i class="fa-solid fa-hand-holding-dollar text-center text-6xl mb-1"></i> -->
+            <img
+              src="img/brickwall-icon.png"
+              class="w-[28%] xl:w-[20%]"
+              alt=""
+            />
+            <h1 class="font-semibold text-2xl my-2 xl:py-5">Best Price</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, sint. Odit ratione amet deserunt harum, doloribus ex
+              aspernatur quis corrupti.
+            </p>
+          </div>
+          <div
+            class="border border-gray-200 shadow-lg hover:bg-[#254866] hover:text-white transition duration-200 rounded-lg w-full h-[18rem] md:h-[22rem] px-7 py-8 md:py-14 my-7 md:w-[40%] lg:w-[35%]"
+          >
+            <!-- <i class="fa-solid fa-hand-holding-dollar text-center text-6xl mb-1"></i> -->
+            <img src="img/kuli.png" class="w-[28%] xl:w-[20%]" alt="" />
+            <h1 class="font-semibold text-2xl my-2 xl:py-5">Best Price</h1>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Voluptatem, sint. Odit ratione amet deserunt harum, doloribus ex
+              aspernatur quis corrupti.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- location -->
+    <section>
+      <div
+        class="container md:max-w-fit xl:w-full w-full mx-auto h-[100vh] px-6 xl:px-32 md:h-[83vh] xl:h-[100vh] bg-[#f2f2f2]"
+      >
+        <h1
+          class="text-center text-3xl md:text-4xl font-merry py-10 xl:py-0 xl:pt-16 font-bold text-slate-700"
+        >
+          LOCATION
+        </h1>
+
+        <div
+          class="xl:flex xl:gap-16 xl:mt-20 xl:items-center xl:justify-center"
+        >
+          <div class="peta xl:w-1/2">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.06563350851!2d111.99545590000001!3d-7.8675725!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e78574ff9e94493%3A0x2697ca6810fbdc1b!2sSofyan!5e0!3m2!1sid!2sid!4v1659838107754!5m2!1sid!2sid"
+              class="h-[40vh] rounded-lg xl:h-[50vh] w-full md:w-[80%] xl:w-[100%] mx-auto"
+              style="border: 0"
+              allowfullscreen=""
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+            ></iframe>
+          </div>
+
+          <div class="text py-10 md:px-[80px] xl:w-1/2">
+            <h1
+              class="text-slate-700 font-merry font-semibold text-2xl md:text-3xl xl:text-4xl"
+            >
+              Location
+            </h1>
+            <p
+              class="mt-5 xl:my-8 text-slate-700 font-merry text-sm tracking-wide leading-6 md:text-lg"
+            >
+              Lorem ipsum dolor sit, amet consectetur adipisicing elit. Commodi
+              autem qui rem excepturi nemo magni doloremque laboriosam vero.
+              Fuga maxime quis assumenda ex. Illo, numquam laborum? Pariatur
+              dolorum a iusto.
+            </p>
+            <div class="flex items-center gap-5 mt-5">
+              <a
+                href=""
+                class="px-3 py-1 xl:px-4 xl:py-2 font-merry bg-[#F4EC97] xl:text-slate-700 xl:bg-[#F4EC97] rounded-md font-semibold hover:opacity-80 transition-all duration-200"
+                >More</a
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-4xl xl:text-[#F4EC97] text-[#F4EC97]"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- our service section -->
+    <section>
+      <div class="w-full h-screen md:h-[60vh] xl:h-[70vh] bg-[#F7FAFC]">
+        <h1 class="text-center font-bold font-merry text-3xl py-10">
+          OUR SERVICE
+        </h1>
+
+        <div
+          class="md:flex md:items-center md:justify-between xl:justify-center xl:mt-20 xl:gap-16"
+        >
+          <div
+            class="relative w-[60%] md:w-[40%] xl:w-[20%] my-20 xl:my-0 md:my-12 bg-[#254866] hover:bg-[#004581] rounded-md mx-auto xl:mx-0 h-[20vh] md:h-[20vh] xl:h-[30vh] group transition duration-500"
+          >
+            <img
+              src="img/printing.png"
+              class="absolute left-1/2 -translate-x-1/2 top-0 -translate-y-20 w-[80%] md:w-[80%] group-hover:scale-110 transition duration-500 group-hover:-translate-y-24"
+              alt=""
+            />
+            <h1
+              class="text-white text-2xl font-bold font-merry tracking-wider absolute bottom-10 left-1/2 -translate-x-1/2"
+            >
+              PRINTING
+            </h1>
+          </div>
+
+          <div
+            class="relative w-[60%] md:w-[40%] xl:w-[20%] my-32 xl:my-0 bg-[#254866] hover:bg-[#004581] rounded-md mx-auto xl:mx-0 h-[20vh] md:h-[20vh] xl:h-[30vh] group transition duration-500"
+          >
+            <img
+              src="img/konstruksi.png"
+              class="absolute left-1/2 -translate-x-1/2 top-0 -translate-y-20 w-[80%] md:w-[80%] group-hover:scale-110 transition duration-500 group-hover:-translate-y-24"
+              alt=""
+            />
+            <h1
+              class="text-white text-xl font-bold font-merry tracking-wider absolute bottom-10 left-1/2 -translate-x-1/2"
+            >
+              CONSTRUCTION
+            </h1>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- service detail -->
+
+    <!-- printing section -->
+    <section>
+      <div
+        class="min-h-screen relative flex gap-4 overflow-x-hidden bg-[#f2f2f2]"
+      >
+        <div
+          class="absolute left-0 top-[5%] h-2/5 md:h-1/2 w-3/5 md:top-[10.5%] lg:w-1/4 lg:h-4/5 bg-[#254866] rounded-r-3xl"
+        ></div>
+        <div
+          class="w-full h-screen flex flex-col lg:flex-row justify-center items-center mx-8"
+        >
+          <div
+            class="relative w-full lg:w-3/5 z-10 lg:left-16 -top-14 md:-top-0"
+          >
+            <img
+              src="../public/img/main-4.jpg"
+              alt=""
+              class="w-full md:w-[80%] lg:w-[70%] rounded-lg shadow-2xl"
+            />
+          </div>
+          <div class="w-full lg:w-2/5 flex lg:mr-20 md:mt-24 flex-col gap-4">
+            <p
+              class="text-2xl font-merrry text-slate-700 font-semibold md:text-3xl lg:text-4xl"
+            >
+              PRINTING
+            </p>
+            <p
+              class="font-merry text-slate-700 tracking-wider md:text-[18px] py-2"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              omnis asperiores consequuntur, accusantium odit ipsum obcaecati,
+              exercitationem tempore quam in odio voluptates dignissimos
+            </p>
+            <div class="flex items-center gap-5 mt-5">
+              <a
+                href=""
+                class="px-3 py-1 xl:px-4 xl:py-2 font-merry bg-[#F4EC97] xl:text-slate-700 xl:bg-[#F4EC97] rounded-md font-semibold hover:opacity-80 transition-all duration-200"
+                >More</a
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-4xl xl:text-[#F4EC97] text-[#F4EC97]"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- construction section -->
+    <section>
+      <div
+        class="min-h-screen relative flex gap-4 gap-y-6 overflow-x-hidden bg-[#f2f2f2]"
+      >
+        <div
+          class="absolute right-0 top-[5%] h-2/5 md:h-1/2 w-3/5 md:top-[9.5%] lg:w-1/4 lg:h-4/5 bg-[#254866] rounded-l-3xl"
+        ></div>
+        <div
+          class="w-full h-screen flex flex-col lg:flex-row-reverse justify-evenly items-center mx-8"
+        >
+          <div
+            class="relative w-full lg:w-3/5 z-10 lg:-right-[10%] md:-right-[130px]"
+          >
+            <img
+              src="../public/img/main-4.jpg"
+              alt=""
+              class="w-full md:w-[80%] lg:w-[70%] rounded-lg m-0 shadow-2xl"
+            />
+          </div>
+          <div class="w-full lg:w-2/5 flex lg:ml-20 flex-col gap-4">
+            <p
+              class="text-2xl font-merrry text-slate-700 font-semibold md:text-3xl lg:text-4xl"
+            >
+              CONSTRUCTION
+            </p>
+            <p
+              class="font-merry text-slate-700 tracking-wider text-[18px] py-2"
+            >
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non
+              omnis asperiores consequuntur, accusantium odit ipsum obcaecati,
+              exercitationem tempore quam in odio voluptates dignissimos
+            </p>
+            <div class="flex items-center gap-5 mt-5">
+              <a
+                href=""
+                class="px-3 py-1 xl:px-4 xl:py-2 font-merry bg-[#F4EC97] xl:text-slate-700 xl:bg-[#F4EC97] rounded-md font-semibold hover:opacity-80 transition-all shadow-2xl duration-200"
+                >More</a
+              >
+              <i
+                class="fa-solid fa-arrow-right-long text-4xl xl:text-[#F4EC97] text-[#F4EC97]"
+              ></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- gallery  -->
+    <section>
+      <div
+        class="min-h-screen flex flex-col justify-evenly lg:gap-8 lg:py-8 md:py-8 bg-[#F7FAFC]"
+      >
+        <div class="">
+          <p
+            class="text-4xl md:py-14 py-10 font-bold text-slate-700 font-merry text-center"
+          >
+            GALLERY
+          </p>
+        </div>
+        <div
+          class="w-fit grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 mx-10 gap-10"
+        >
+          <div class="rounded-lg">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+          <div class="">
+            <img src="../public/img/main-4.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <div class="w-full flex flex-col mt-16 py-8 justify-between bg-[#254866]">
+        <div class="flex flex-col mx-12 lg:flex-row justify-evenly pb-4">
+          <div class="mt-4 mb-5">
+            <p class="text-white text-2xl font-merry">Logo</p>
+          </div>
+
+          <div class="flex flex-col mt-4 mb-5">
+            <p class="text-white font-bold font-merry">Opening Hours</p>
+            <p class="text-white font-merry mt-4 mb-2">
+              Weekdays: <span class="text-gray-500">Timings</span>
+            </p>
+            <p class="text-white font-merry">
+              Weekends: <span class="text-gray-500">Timings</span>
+            </p>
+          </div>
+
+          <div class="flex flex-col mt-4 mb-5">
+            <p class="text-white font-bold font-merry">Address</p>
+            <p class="text-white font-merry mt-4">
+              Level 1, 12 Sample St, Sydney NSW 2000
+            </p>
+          </div>
+
+          <div class="flex flex-col justify-evenly mt-4">
+            <p class="text-white font-bold font-merry">Contact</p>
+            <p class="text-white font-merry mt-4 mb-2">
+              <span><i class="fa-solid fa-envelope mr-2"></i></span
+              >info@email.com
+            </p>
+            <p class="text-white font-merry">
+              <span><i class="fa-solid fa-phone mr-2"></i></span>(270) 555-0117
+            </p>
+          </div>
+        </div>
+
+        <hr class="my-5" />
+
+        <div class="container pt-4">
+          <div class="mx-14 flex flex-wrap justify-between">
+            <div class="mb-5">
+              <p class="text-white">2022, All Rights Reserved.</p>
+            </div>
+
+            <div class="flex gap-5">
+              <i class="fa-brands text-white text-xl fa-facebook"></i>
+              <i class="fa-brands text-white text-xl fa-instagram"></i>
+              <i class="fa-brands text-white text-xl fa-twitter"></i>
+              <i class="fa-brands text-white text-xl fa-linkedin"></i>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <!-- Hamburger Navbra -->
+    <script>
+      // Burger menus
+      document.addEventListener("DOMContentLoaded", function () {
+        // open
+        const burger = document.querySelectorAll(".navbar-burger");
+        const menu = document.querySelectorAll(".navbar-menu");
+
+        if (burger.length && menu.length) {
+          for (var i = 0; i < burger.length; i++) {
+            burger[i].addEventListener("click", function () {
+              for (var j = 0; j < menu.length; j++) {
+                menu[j].classList.toggle("hidden");
+              }
+            });
+          }
+        }
+
+        // close
+        const close = document.querySelectorAll(".navbar-close");
+        const backdrop = document.querySelectorAll(".navbar-backdrop");
+
+        if (close.length) {
+          for (var i = 0; i < close.length; i++) {
+            close[i].addEventListener("click", function () {
+              for (var j = 0; j < menu.length; j++) {
+                menu[j].classList.toggle("hidden");
+              }
+            });
+          }
+        }
+
+        if (backdrop.length) {
+          for (var i = 0; i < backdrop.length; i++) {
+            backdrop[i].addEventListener("click", function () {
+              for (var j = 0; j < menu.length; j++) {
+                menu[j].classList.toggle("hidden");
+              }
+            });
+          }
+        }
+      });
+    </script>
+
+    <!-- Swiper JS -->
+    <script src="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        pagination: {
+          el: ".swiper-pagination",
+        },
+        autoplay: {
+          delay: 3000,
+          disableOnInteraction: false,
+        },
+      });
+    </script>
+
+    <!-- lootie files -->
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+  </body>
+</html>
